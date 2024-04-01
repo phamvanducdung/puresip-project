@@ -1,0 +1,345 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "The Lemonade Love",
+      "image": "https://dt-puresip.myshopify.com/cdn/shop/products/shop4.jpg?v=1688461714&width=600",
+      "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/products/shop4.1.jpg?v=1688461714&width=1946",
+      "price": 15,
+      "categoryId": "1"
+    },
+    {
+      "id": "2",
+      "name": "Crazy Apple Splash",
+      "image": "https://dt-puresip.myshopify.com/cdn/shop/products/shop1_b4fcc0c6-cfa1-4ace-abbf-28652bb50cad.jpg?v=1688461724",
+      "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/products/shop1.1_b7db59bb-b828-4e5b-bd65-f8ae51bd6481.jpg?v=1688461724",
+      "price": 15,
+      "categoryId": "1"
+    },
+    {
+      "id": "3",
+      "name": "Grapefruit Grove",
+      "image": "https://dt-puresip.myshopify.com/cdn/shop/products/shop6.jpg?v=1688461707",
+      "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/products/shop6.1.jpg?v=1688461707",
+      "price": 15,
+      "categoryId": "1"
+    },
+    {
+      "id": "4",
+      "name": "Strawberry Splash",
+      "image": "https://dt-puresip.myshopify.com/cdn/shop/products/shop3.jpg?v=1688461717&width=600",
+      "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/products/shop3.1.jpg?v=1688461718&width=1946",
+      "price": 17,
+      "categoryId": "1"
+    },
+    {
+      "id": "5",
+      "name": "Pomegranate Punch",
+      "image": "https://dt-puresip.myshopify.com/cdn/shop/products/shop5.jpg?v=1688461711&width=600",
+      "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/products/shop5.1.jpg?v=1688461711&width=1946",
+      "price": 30,
+      "categoryId": "1"
+    },
+    {
+      "id": "6",
+      "name": "Fresh Banana Twist",
+      "image": "https://dt-puresip.myshopify.com/cdn/shop/products/shop-8_3f47594e-30f0-4d53-a29d-f22d1cc55d95.jpg?v=1688461700&width=600",
+      "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/products/shop-8.1_f27becaf-38a4-48eb-8d47-06de5462d36b.jpg?v=1688461700&width=1946",
+      "price": 15,
+      "categoryId": "1"
+    },
+    {
+      "id": "7",
+      "name": "Mango Tango Delight",
+      "image": "https://dt-puresip.myshopify.com/cdn/shop/products/shop2.jpg?v=1688461721&width=1946",
+      "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/products/shop2.1.jpg?v=1688461721&width=1946",
+      "price": 12,
+      "categoryId": "1"
+    },
+    {
+      "id": "8",
+      "name": "New Cranberry Craze",
+      "image": "https://dt-puresip.myshopify.com/cdn/shop/files/shop-7_0ed7baf1-736d-444b-9ae3-252551587639.jpg?v=1688634234&width=1946",
+      "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/files/shop-7.1_abf2a455-34a6-474e-841d-ba7e81a424bc.jpg?v=1688634239&width=1946",
+      "price": 27,
+      "categoryId": "1"
+    },
+    {
+      "id": "9",
+      "name": "Black Raspberry Sparkler",
+      "image": "https://dt-puresip.myshopify.com/cdn/shop/files/2.jpg?v=1691752784&width=600",
+      "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/files/2a.jpg?v=1691752784&width=1946",
+      "price": 43,
+      "categoryId": "2"
+    },
+    {
+      "id": "10",
+      "name": "Green Apple Sensation",
+      "image": "https://dt-puresip.myshopify.com/cdn/shop/files/1.jpg?v=1691752630&width=1946",
+      "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/files/1a.jpg?v=1691752630&width=1946",
+      "price": 48,
+      "categoryId": "2"
+    },
+    {
+      "id": "11",
+      "name": "Red Raspberry Paradise",
+      "image": "https://dt-puresip.myshopify.com/cdn/shop/files/prod5.jpg?v=1691400698&width=600",
+      "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/files/prod5_1.jpg?v=1691400698&width=1946",
+      "price": 52,
+      "categoryId": "2"
+    },
+    {
+      "id": "12",
+      "name": "Apple & Mint Delight",
+      "image": "https://dt-puresip.myshopify.com/cdn/shop/files/prod6_1.jpg?v=1691400711&width=600",
+      "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/files/prod6.jpg?v=1691400711&width=1946",
+      "price": 48,
+      "categoryId": "2"
+    },
+    {
+      "id": "13",
+      "name": "Fresh Mango Paradise",
+      "image": "https://dt-puresip.myshopify.com/cdn/shop/files/P-6.jpg?v=1691401855",
+      "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/files/P-6.jpg?v=1691401855",
+      "price": 27,
+      "categoryId": "3"
+    },
+    {
+      "id": "14",
+      "name": "Raspberry Rhapsody",
+      "image": "https://dt-puresip.myshopify.com/cdn/shop/files/P-3.jpg?v=1691401835&width=1946",
+      "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/files/P-3.jpg?v=1691401835&width=1946",
+      "price": 27,
+      "categoryId": "3"
+    },
+    {
+      "id": "15",
+      "name": "Broccoli Fresh Juice",
+      "image": "https://dt-puresip.myshopify.com/cdn/shop/files/P-5.jpg?v=1691401848&width=1946",
+      "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/files/P-5.jpg?v=1691401848&width=1946",
+      "price": 27,
+      "categoryId": "3"
+    },
+    {
+      "id": "16",
+      "name": "Watermelon Wonder",
+      "image": "https://dt-puresip.myshopify.com/cdn/shop/files/P-2.jpg?v=1691401827&width=1946",
+      "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/files/P-2.jpg?v=1691401827&width=1946",
+      "price": 40,
+      "categoryId": "3"
+    },
+    {
+      "id": "17",
+      "name": "Mango Cool Twist",
+      "image": "https://dt-puresip.myshopify.com/cdn/shop/files/P-11.jpg?v=1691402048&width=600",
+      "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/files/P-11.jpg?v=1691402048&width=600",
+      "price": 34,
+      "categoryId": "4"
+    },
+    {
+      "id": "18",
+      "name": "Dragon Fruit Bliss",
+      "image": "https://dt-puresip.myshopify.com/cdn/shop/files/P-13.jpg?v=1691402062&width=1946",
+      "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/files/P-13.jpg?v=1691402062&width=1946",
+      "price": 31,
+      "categoryId": "4"
+    },
+    {
+      "id": "19",
+      "name": "White Peach Squeeze",
+      "image": "https://dt-puresip.myshopify.com/cdn/shop/files/P-12.jpg?v=1691402054&width=600",
+      "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/files/P-12.jpg?v=1691402054&width=600",
+      "price": 27,
+      "categoryId": "4"
+    },
+    {
+      "id": "20",
+      "name": "Clear Strawberry Bonanza",
+      "image": "https://dt-puresip.myshopify.com/cdn/shop/files/P-10.jpg?v=1691402038&width=600",
+      "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/files/P-10.jpg?v=1691402038&width=600",
+      "price": 29,
+      "categoryId": "4"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Best Selling"
+    },
+    {
+      "id": "2",
+      "name": "Big Fashion"
+    },
+    {
+      "id": "3",
+      "name": "New"
+    }
+  ],
+  "orders": [
+    {
+      "id": "092a",
+      "fullName": "Pham Hoang Anh Tuan",
+      "address": "15 Ung Van Khiem",
+      "city": "Quảng Nam",
+      "country": "Vietnam",
+      "phone": "070123456",
+      "email": "tuanpha.it@gmail.com",
+      "userId": 1,
+      "status": "PENDING",
+      "orderDate": "2024-03-22T06:44:31.513Z",
+      "price": 880
+    },
+    {
+      "fullName": "Xuan Thang Ba",
+      "address": "K218/4 Ngu Hanh Son",
+      "city": "Da Nang",
+      "country": "Viet Nam",
+      "phone": "0906489629",
+      "email": "phamvanducdung999@gmail.com",
+      "userId": 4,
+      "status": "PENDING",
+      "orderDate": "2024-04-01T11:55:06.749Z",
+      "price": 128,
+      "id": "3JgNtcj"
+    }
+  ],
+  "orderDetails": [
+    {
+      "id": "0a8d",
+      "orderId": "092a",
+      "productId": 2,
+      "quantity": 1,
+      "price": 120
+    },
+    {
+      "id": "a5bf",
+      "orderId": "092a",
+      "productId": 4,
+      "quantity": 2,
+      "price": 200
+    },
+    {
+      "id": "c6f6",
+      "orderId": "092a",
+      "productId": 3,
+      "quantity": 2,
+      "price": 180
+    },
+    {
+      "orderId": "3JgNtcj",
+      "product": {
+        "quantity": 1,
+        "id": "18",
+        "name": "Dragon Fruit Bliss",
+        "image": "https://dt-puresip.myshopify.com/cdn/shop/files/P-13.jpg?v=1691402062&width=1946",
+        "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/files/P-13.jpg?v=1691402062&width=1946",
+        "price": 31,
+        "categoryId": "4"
+      },
+      "quantity": 1,
+      "price": 31,
+      "id": "D-kfdZl"
+    },
+    {
+      "orderId": "3JgNtcj",
+      "product": {
+        "quantity": 1,
+        "id": "13",
+        "name": "Fresh Mango Paradise",
+        "image": "https://dt-puresip.myshopify.com/cdn/shop/files/P-6.jpg?v=1691401855",
+        "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/files/P-6.jpg?v=1691401855",
+        "price": 27,
+        "categoryId": "3"
+      },
+      "quantity": 1,
+      "price": 27,
+      "id": "A3lgAkK"
+    },
+    {
+      "orderId": "3JgNtcj",
+      "product": {
+        "quantity": 2,
+        "id": "1",
+        "name": "The Lemonade Love",
+        "image": "https://dt-puresip.myshopify.com/cdn/shop/products/shop4.jpg?v=1688461714&width=600",
+        "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/products/shop4.1.jpg?v=1688461714&width=1946",
+        "price": 15,
+        "categoryId": "1"
+      },
+      "quantity": 2,
+      "price": 15,
+      "id": "fpWuKgN"
+    },
+    {
+      "orderId": "3JgNtcj",
+      "product": {
+        "quantity": 1,
+        "id": "17",
+        "name": "Mango Cool Twist",
+        "image": "https://dt-puresip.myshopify.com/cdn/shop/files/P-11.jpg?v=1691402048&width=600",
+        "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/files/P-11.jpg?v=1691402048&width=600",
+        "price": 40,
+        "categoryId": "3"
+      },
+      "quantity": 1,
+      "price": 40,
+      "id": "8eGd3ov"
+    }
+  ],
+  "users": [
+    {
+      "email": "tuanpha.it@gmail.com",
+      "password": "$2a$10$ZM2kBYVcwj3rgRP7AfWoxeF0jRxW7eAAw2yTgcJ3DOhOeYph.j/NK",
+      "id": 1
+    },
+    {
+      "email": "tuanpha.it+1@gmail.com",
+      "password": "$2a$10$RAv1mzCk1tJPBlpkfYTzu.Je9RwCvnGcRes1MFr86varrLV6mrK6a",
+      "firstname": "Tuan",
+      "lastname": "Pham",
+      "id": 2
+    },
+    {
+      "email": "user@code4change.dev",
+      "password": "$2a$10$iTqQfd7/pnkk163rywpDj.p5ScSfldLBsvHatyEEsLjxd0PIbdxk.",
+      "firstname": "Tuan",
+      "lastname": "Pham",
+      "id": 3
+    },
+    {
+      "email": "user2000@gmail.com",
+      "password": "$2a$10$uu/46.i8vGN6XbhxXAz9XucC1gPFpnzPR0IzStNS/apXpVegYuL8u",
+      "firstname": "Star",
+      "lastname": "Hello",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "productId": "1",
+      "user": {
+        "id": 3,
+        "firstname": "Tuan",
+        "lastname": "Pham 2",
+        "email": "user@code4change.dev"
+      },
+      "content": "Beautiful",
+      "rate": 5,
+      "createdAt": "2024-03-25T11:51:58.159Z",
+      "id": 1
+    },
+    {
+      "productId": "2",
+      "user": {
+        "email": "user@code4change.dev",
+        "firstname": "Tuan",
+        "lastname": "Pham",
+        "id": 3
+      },
+      "content": "Beautiful",
+      "rate": 5,
+      "createdAt": "2024-03-25T12:08:51.832Z",
+      "id": 2
+    }
+  ]
+}
