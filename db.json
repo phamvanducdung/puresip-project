@@ -169,19 +169,6 @@
       "orderDate": "2024-04-01T11:55:06.749Z",
       "price": 128,
       "id": "3JgNtcj"
-    },
-    {
-      "fullName": "Star",
-      "address": "82 Ngu Hanh Son",
-      "city": "Da Nang",
-      "country": "Viet Nam",
-      "phone": "01299604749",
-      "email": "hothikimlam999@gmail.com",
-      "userId": 4,
-      "status": "PENDING",
-      "orderDate": "2024-04-08T12:06:15.113Z",
-      "price": 62,
-      "id": "4B6J90d"
     }
   ],
   "orderDetails": [
@@ -265,66 +252,6 @@
       "quantity": 1,
       "price": 40,
       "id": "8eGd3ov"
-    },
-    {
-      "orderId": "4B6J90d",
-      "product": {
-        "quantity": 1,
-        "id": "4",
-        "name": "Strawberry Splash",
-        "image": "https://dt-puresip.myshopify.com/cdn/shop/products/shop3.jpg?v=1688461717&width=600",
-        "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/products/shop3.1.jpg?v=1688461718&width=1946",
-        "price": 17,
-        "categoryId": "1"
-      },
-      "quantity": 1,
-      "price": 17,
-      "id": "aAiQTMh"
-    },
-    {
-      "orderId": "4B6J90d",
-      "product": {
-        "quantity": 1,
-        "id": "2",
-        "name": "Crazy Apple Splash",
-        "image": "https://dt-puresip.myshopify.com/cdn/shop/products/shop1_b4fcc0c6-cfa1-4ace-abbf-28652bb50cad.jpg?v=1688461724",
-        "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/products/shop1.1_b7db59bb-b828-4e5b-bd65-f8ae51bd6481.jpg?v=1688461724",
-        "price": 15,
-        "categoryId": "1"
-      },
-      "quantity": 1,
-      "price": 15,
-      "id": "tdHQWHD"
-    },
-    {
-      "orderId": "4B6J90d",
-      "product": {
-        "quantity": 1,
-        "id": "3",
-        "name": "Grapefruit Grove",
-        "image": "https://dt-puresip.myshopify.com/cdn/shop/products/shop6.jpg?v=1688461707",
-        "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/products/shop6.1.jpg?v=1688461707",
-        "price": 15,
-        "categoryId": "1"
-      },
-      "quantity": 1,
-      "price": 15,
-      "id": "iJiobvh"
-    },
-    {
-      "orderId": "4B6J90d",
-      "product": {
-        "quantity": 1,
-        "id": "1",
-        "name": "The Lemonade Love",
-        "image": "https://dt-puresip.myshopify.com/cdn/shop/products/shop4.jpg?v=1688461714&width=600",
-        "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/products/shop4.1.jpg?v=1688461714&width=1946",
-        "price": 15,
-        "categoryId": "1"
-      },
-      "quantity": 1,
-      "price": 15,
-      "id": "jxWuZ0Q"
     }
   ],
   "users": [
