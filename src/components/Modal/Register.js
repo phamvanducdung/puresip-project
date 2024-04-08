@@ -5,7 +5,11 @@ import { useDispatch, useSelector } from 'react-redux';
 import { registerRequest } from '../../stores/redux/AuthSlice';
 
 export default memo(function Register() {
+
+    // useSelector truy xuất các state từ store để sử dụng trong các component
     const fetching = useSelector((state) => state.auth.fetching);
+
+
     const dispatch = useDispatch();
     const [form] = Form.useForm();
 

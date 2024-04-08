@@ -81,13 +81,7 @@ export default function OrderHistory() {
             fixed: 'right',
             width: 100,
             render: (_, record) => (
-                <Popconfirm
-                    title="Delete the order"
-                    description="Are you sure to delete this order?"
-                    onConfirm={() => confirm(record.id)}
-                    okText="Yes"
-                    cancelText="No"
-                >
+                <Popconfirm title="Delete the order" description="Are you sure to delete this order?" onConfirm={() => confirm(record.id)} okText="Yes" cancelText="No">
                     <Button danger size="small">
                         Delete
                     </Button>
@@ -100,7 +94,7 @@ export default function OrderHistory() {
         <div className="container py-10 mx-auto min-h-[calc(100vh_-_139px)]">
             <div className="grid grid-cols-5 gap-6">
                 <AuthSidebar />
-                <div className="grid col-span-4 p-6 bg-white shadow-md">
+                <div className="grid col-span-4 border p-6 bg-white shadow-md">
                     <Table
                         columns={columns}
                         loading={fetching}

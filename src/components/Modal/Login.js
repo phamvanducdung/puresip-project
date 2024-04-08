@@ -5,10 +5,16 @@ import { useDispatch, useSelector } from 'react-redux';
 import { loginRequest } from '../../stores/redux/AuthSlice';
 
 export default memo(function Login() {
+	
+	// useSelector truy xuất các state từ store để sử dụng trong các component
 	const fetching = useSelector((state) => state.auth.fetching);
+
 	const dispatch = useDispatch();
+
+	// Khởi tạo useFrom của React-Hook-Form
 	const [form] = Form.useForm();
 
+	// 
 	const onFinish = (values) => {
 		dispatch(loginRequest(values));
 	};

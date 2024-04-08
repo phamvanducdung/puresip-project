@@ -12,18 +12,24 @@ import { useNavigate } from 'react-router-dom';
 import { ROUTERS } from '../../constants/Routers';
 
 const Auth = () => {
+    // useSelector truy xuất các state từ store để sử dụng trong các component
     const { user, isShowAuthModal } = useSelector((state) => state.auth);
     const dispatch = useDispatch();
+
+    // navigate là thư viện của JS giúp điều hướng dễ dàng hơn.
     const navigate = useNavigate();
 
+    // Show giao diện đăng nhập / đăng ký
     const showModal = () => {
         dispatch(setShowAuthModal(true));
     };
 
+    // Thoát khỏi giao diện 
     const handleCancel = () => {
         dispatch(setShowAuthModal(false));
     };
 
+    // Xử lý chuyển đổi giữa đăng nhập và đăng ký, thoát ra theo key lựa chọn của người dùng
     const onClick = ({ key }) => {
         if (key === '1') {
             navigate(ROUTERS.PROFILE);
@@ -43,6 +49,7 @@ const Auth = () => {
         }
     };
 
+    // Tính năng liên quan đến user sau khi đã đăng nhập
     const items = [
         {
             label: 'Profile',

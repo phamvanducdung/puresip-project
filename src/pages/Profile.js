@@ -9,6 +9,7 @@ export default function Profile() {
     const user = useSelector((state) => state.auth.user);
     const isSubmitting = useSelector((state) => state.auth.fetching);
 
+    console.log(111, user);
     const [form] = Form.useForm();
 
     const onFinish = async (values) => {
@@ -26,7 +27,7 @@ export default function Profile() {
         <div className="container py-10 mx-auto min-h-[calc(100vh_-_139px)]">
             <div className="grid grid-cols-5 gap-6">
                 <AuthSidebar />
-                <div className="grid col-span-4 p-6 bg-white shadow-md">
+                <div className="grid col-span-4 p-6 bg-white shadow-md border">
                     {user && (
                         <Form
                             size="large"

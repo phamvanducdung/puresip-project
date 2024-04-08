@@ -1,55 +1,46 @@
 import React from 'react';
-import { Button, message, Space } from 'antd';
-import { GiFruitBowl } from "react-icons/gi";
-import List from '../components/ListProduct'
+
 const Home = () => {
-    const [messageApi, contextHolder] = message.useMessage();
-    const success = () => {
-        messageApi.open({
-            type: 'success',
-            content: 'This is a success message',
-        });
-    };
-    const error = () => {
-        messageApi.open({
-            type: 'error',
-            content: 'This is an error message',
-        });
-    };
-    const warning = () => {
-        messageApi.open({
-            type: 'warning',
-            content: 'This is a warning message',
-        });
-    };
+
     return (
-        <div className=' '>
+        <div className='relative'>
             <div className='relative m-8 mt-0'>
                 <img className='z-5' src="https://dt-puresip.myshopify.com/cdn/shop/files/Slider_3_a2f8bea2-162e-433a-92d9-989535180364.jpg?v=1692258055&width=1500" alt="" />
                 <div className='absolute inset-0 bg-white opacity-60 z-10' />
-            </div>
-            <div className="m-8 mt-8 mb-8 flex flex-row justify-between text-black h-[200px]">
-                <div className='w-[400px] bg-red-200 p-5 flex flex-col items-start justify-center'>
-                    <h2 className='font-medium'>GET 20% OFF ON</h2>
-                    <h1 className='font-bold text-[30px]'>Fresh Frush Juices</h1>
-                    <p>Veneatis urna cursus eget nunc. Volutpat lacus laoreet non curabitur gravida acu.</p>
-                    {contextHolder}
-                    <Button className='bg-black text-white font-medium mt-2' onClick={success}>Shop Now</Button>
-                </div>
-                <div className='w-[400px] bg-yellow-200 p-5 flex flex-col items-start justify-center'>
-                    <h2 className='font-medium'>GET 20% OFF ON</h2>
-                    <h1 className='font-bold text-[30px]'>Fresh Frush Juices</h1>
-                    <p>Veneatis urna cursus eget nunc. Volutpat lacus laoreet non curabitur gravida acu.</p>
-                    <Button className='bg-black text-white font-medium mt-2' onClick={error}>Shop Now</Button>
-                </div>
-                <div className='w-[400px] bg-blue-200 p-5 flex flex-col items-start justify-center'>
-                    <h2 className='font-medium'>GET 20% OFF ON</h2>
-                    <h1 className='font-bold text-[30px]'>Fresh Frush Juices</h1>
-                    <p>Veneatis urna cursus eget nunc. Volutpat lacus laoreet non curabitur gravida acu.</p>
-                    <Button className='bg-black text-white font-medium mt-2' onClick={warning}>Shop Now</Button>
+                <div className='absolute inset-y-44 inset-x-20 z-50  w-[500px]'>
+                    <h1 className=' text-[55px] font-bold '>Summer Juices</h1>
+                    <span className=' text-[18px] font-medium leading-8'>Venenatis urna cursus eget nunc. Volutpat lacus laoreet non curabitur gravida arcu. Iaculis urna id volutpat lacus. Fermentum dui faucibus in ornare quam.</span>
+                    <br />
+                    <button className='rounded-md bg-lime-500 z-50 text-white font-medium mt-6 w-[160px] h-[40px]'>Shop Now</button>
                 </div>
             </div>
-            <div className='m-8 mt-0'>
+            <div className="grid grid-cols-3 m-8 text-black gap-6 h-[200px]">
+                <div className='relative mt-0'>
+                    <img className='z-5' src="https://dt-puresip.myshopify.com/cdn/shop/files/home_3_banner_1_14fd1c0a-f68b-4a5b-a560-3266fea5115e.jpg?v=1692257070&width=1500" alt="" />
+                    <div className='absolute inset-y-12 inset-x-5 z-50 '>
+                        <h4 className=' text-[20px] font-medium '>GET 20% OFF ON</h4>
+                        <h4 className=' text-[25px] font-bold'>Fresh Fruit</h4>
+                        <button className='rounded-md bg-lime-500 z-50 text-white font-medium mt-6 w-[160px] h-[40px]'>Shop Now</button>
+                    </div>
+                </div>
+                <div className='relative mt-0'>
+                    <img className='z-5' src="https://dt-puresip.myshopify.com/cdn/shop/files/home_3_banner_2_2e6afe6a-fce1-43b8-b1b4-ef552c64bc54.jpg?v=1692257116&width=1500" alt="" />
+                    <div className='absolute inset-y-12 inset-x-5 z-50 '>
+                        <h4 className=' text-[20px] font-medium '>GET 10% OFF ON</h4>
+                        <h4 className=' text-[25px] font-bold'>Summer Cocktails</h4>
+                        <button className='rounded-md bg-lime-500 z-50 text-white font-medium mt-6 w-[160px] h-[40px]'>Shop Now</button>
+                    </div>
+                </div>
+                <div className='relative mt-0'>
+                    <img className='z-5' src="https://dt-puresip.myshopify.com/cdn/shop/files/home_3_banner_3.jpg?v=1691478050&width=1500" alt="" />
+                    <div className='absolute inset-y-12 inset-x-5 z-50 '>
+                        <h4 className=' text-[20px] font-medium '>GET 30% OFFERS ON</h4>
+                        <h4 className=' text-[25px] font-bold'>Milk Shakes</h4>
+                        <button className='rounded-md bg-lime-500 z-50 text-white font-medium mt-6 w-[160px] h-[40px]'>Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <div className='m-8 mt-16'>
                 <h1 className='m-5 mb-0 flex justify-center font-bold text-[40px]'>Our Favorite Delicious Juice</h1>
                 <p className='mb-2 mt-2 flex justify-center font-medium text-[15px]'> Neque Ornare Aenean Euismod Elementum Nisi. Nulla Porttitor Massa Id Neque Aliquam. Eros In Cursus Turpis Massa Tincidunt.</p>
                 <div className='grid grid-cols-4 gap-2 p-2 pt-0'>
@@ -76,7 +67,7 @@ const Home = () => {
                 <div className='flex flex-col items-start justify-center p-10 '>
                     <h1 className='font-bold text-[40px]'>A Taste Of Freshness With Fresh Delicious Juices</h1>
                     <p className='font-medium mt-5 mb-5 text-slate-500'>Proin fermentum leo vel orci porta. Nam laoreet elit ut porttitor rhoncus. nisi, et interdum dolor mattis vitae. Aliquam gravida vitae nisl ut dignissim. Done ullamcorper nec, rhoncus ut enim.</p>
-                    <Button className='bg-black w-[150px] h-[50px] text-white font-medium mt-2'>Read more</Button>
+                    <button className='bg-black w-[150px] h-[50px] text-white font-medium mt-2'>Read more</button>
                 </div>
             </div>
             <div className='flex flex-col items-center text-center justify-center m-9'>
