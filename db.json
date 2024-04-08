@@ -164,15 +164,19 @@
   "categories": [
     {
       "id": "1",
-      "name": "Best Selling"
+      "name": "Cold Pressed"
     },
     {
       "id": "2",
-      "name": "Big Fashion"
+      "name": "Sugar Free"
     },
     {
       "id": "3",
-      "name": "New"
+      "name": "Squeezed"
+    },
+    {
+      "id": "4",
+      "name": "Enriched"
     }
   ],
   "orders": [
