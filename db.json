@@ -127,6 +127,38 @@
       "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/files/P-2.jpg?v=1691401827&width=1946",
       "price": 40,
       "categoryId": "3"
+    },
+    {
+      "id": "17",
+      "name": "Mango Cool Twist",
+      "image": "https://dt-puresip.myshopify.com/cdn/shop/files/P-11.jpg?v=1691402048&width=600",
+      "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/files/P-11.jpg?v=1691402048&width=600",
+      "price": 34,
+      "categoryId": "4"
+    },
+    {
+      "id": "18",
+      "name": "Dragon Fruit Bliss",
+      "image": "https://dt-puresip.myshopify.com/cdn/shop/files/P-13.jpg?v=1691402062&width=1946",
+      "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/files/P-13.jpg?v=1691402062&width=1946",
+      "price": 31,
+      "categoryId": "4"
+    },
+    {
+      "id": "19",
+      "name": "White Peach Squeeze",
+      "image": "https://dt-puresip.myshopify.com/cdn/shop/files/P-12.jpg?v=1691402054&width=600",
+      "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/files/P-12.jpg?v=1691402054&width=600",
+      "price": 27,
+      "categoryId": "4"
+    },
+    {
+      "id": "20",
+      "name": "Clear Strawberry Bonanza",
+      "image": "https://dt-puresip.myshopify.com/cdn/shop/files/P-10.jpg?v=1691402038&width=600",
+      "imageHover": "https://dt-puresip.myshopify.com/cdn/shop/files/P-10.jpg?v=1691402038&width=600",
+      "price": 29,
+      "categoryId": "4"
     }
   ],
   "categories": [
